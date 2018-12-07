@@ -23,6 +23,7 @@
     "protractor": "^5.4.1"
   },
   "scripts": {
+    "build": "ng build",
     "postinstall": "npm run copy-libs",
     "update-deps": "npm update",
     "postupdate-deps": "npm run copy-libs",
